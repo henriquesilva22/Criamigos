@@ -1,0 +1,36 @@
+{
+  "openai_api_key": "sk-YOUR_OPENAI_API_KEY_HERE",
+  "openai_organization": "",
+  "custom_ai_endpoint": "",
+  
+  "tts": {
+    "voice": "nova",
+    "speed": 0.9,
+    "format": "mp3",
+    "model": "tts-1",
+    "volume": 0.8
+  },
+  
+  "stt": {
+    "model": "whisper-1",
+    "language": "pt",
+    "timeout": 30.0,
+    "enable_noise_reduction": true
+  },
+  
+  "ai": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0.7,
+    "max_tokens": 50,
+    "timeout": 15.0,
+    "enable_content_filter": true
+  },
+  
+  "game": {
+    "default_language": "pt-BR",
+    "enable_analytics": false,
+    "enable_crash_reporting": true,
+    "auto_save_interval": 300.0,
+    "enable_offline_mode": true
+  }
+}

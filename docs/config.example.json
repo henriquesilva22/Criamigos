@@ -1,0 +1,11 @@
+{
+  "openai_api_key": "sua-chave-openai-aqui",
+  "stt_endpoint": "https://api.openai.com/v1/audio/transcriptions",
+  "ai_endpoint": "https://api.openai.com/v1/chat/completions",
+  "tts_endpoint": "https://api.openai.com/v1/audio/speech",
+  "ai_model": "gpt-3.5-turbo",
+  "stt_model": "whisper-1",
+  "tts_voice": "nova",
+  "tts_speed": 1.0,
+  "ai_temperature": 0.7
+}

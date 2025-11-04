@@ -1,0 +1,55 @@
+# Binários compilados
+/unity-project/Build/
+/unity-project/Builds/
+*.apk
+*.exe
+*.app
+
+# Assets Unity não versionados
+/unity-project/Library/
+/unity-project/Temp/
+/unity-project/Logs/
+/unity-project/MemoryCaptures/
+/unity-project/obj/
+/unity-project/UserSettings/
+
+# Arquivos do Unity que podem ser regenerados
+/unity-project/ProjectSettings/Packages/
+/unity-project/ProjectSettings/ProjectVersion.txt
+/unity-project/Packages/
+
+# Chaves de API e configs sensíveis
+/unity-project/Assets/StreamingAssets/config.json
+config.json
+*.key
+*.secret
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.swp
+*.swo
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs e caches
+*.log
+*.cache
+node_modules/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.backup
+*~
